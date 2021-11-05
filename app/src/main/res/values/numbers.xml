@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="coffee_in_default" format="integer" type="integer">15</item>
+    <item name="coffee_out_default" format="integer" type="integer">30</item>
+    <item name="planned_brew_ratio_default" format="integer" type="integer">2</item>
+    <item name="scale_factor_default" format="integer" type="integer">5</item>
+    <item name="threshold_default" format="integer" type="integer">15</item>
+    <item name="sample_size" format="integer" type="integer">30</item>
+</resources>

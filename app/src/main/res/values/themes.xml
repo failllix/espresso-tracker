@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EspressoTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_orange_color_wheel</item>
+        <item name="colorPrimaryVariant">@color/vermilion</item>
+        <item name="colorOnPrimary">@color/light_white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/eerie_black</item>
+        <item name="colorSecondaryVariant">@color/jet</item>
+        <item name="colorOnSecondary">@color/light_white</item>
+
+        <!--Data line colors-->
+        <item name="acceleration_data_line">?attr/colorOnSurface</item>
+        <item name="limit_data_line">?attr/colorPrimary</item>
+
+        <!--Font-->
+        <item name="textVeryLowVisibilityColor">@color/platinum</item>
+        <item name="textLowVisibilityColor">@color/jet</item>
+        <item name="textAppearanceHeadline1">@style/Heading1</item>
+        <item name="textAppearanceHeadline3">@style/Heading3</item>
+        <item name="textAppearanceHeadline5">@style/Heading5</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <!-- Customize your theme here. -->
+
+        <!--Components-->
+        <item name="materialButtonStyle">@style/PrimaryButton</item>
+        <item name="materialButtonOutlinedStyle">@style/SecondaryOutlinedButton</item>
+        <item name="materialCardViewStyle">@style/OutlinedCardView</item>
+        <item name="android:background">@color/light_white</item>
+
+        <item name="colorSurface">@color/light_white</item>
+        <item name="colorOnSurface">@color/eerie_black</item>
+        <item name="colorPrimarySurface">@color/light_white</item>
+        <item name="colorOnPrimarySurface">@color/eerie_black</item>
+    </style>
+</resources>

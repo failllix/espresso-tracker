@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textVeryLowVisibilityColor" format="reference|color"/>
+    <attr name="textLowVisibilityColor" format="reference|color"/>
+
+    <attr name="limit_data_line" format="reference|color"/>
+    <attr name="acceleration_data_line" format="reference|color"/>
+
+</resources>
