@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EspressoTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_orange_color_wheel</item>
+        <item name="colorPrimaryVariant">@color/vermilion</item>
+        <item name="colorOnPrimary">@color/light_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_white</item>
+        <item name="colorSecondaryVariant">@color/jet</item>
+        <item name="colorOnSecondary">@color/eerie_black</item>
+
+        <!--Data line colors-->
+        <item name="acceleration_data_line">?attr/colorOnSurface</item>
+        <item name="limit_data_line">?attr/colorPrimary</item>
+        <item name="tabTextColor">?attr/colorPrimary</item>
+
+        <!--Font-->
+        <item name="textVeryLowVisibilityColor">@color/jet</item>
+        <item name="textLowVisibilityColor">@color/light_gray</item>
+        <item name="textAppearanceHeadline1">@style/Heading1</item>
+        <item name="textAppearanceHeadline3">@style/Heading3</item>
+        <item name="textAppearanceHeadline5">@style/Heading5</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+
+        <!--Components-->
+        <item name="materialButtonStyle">@style/PrimaryButton</item>
+        <item name="materialButtonOutlinedStyle">@style/SecondaryOutlinedButton</item>
+        <item name="materialCardViewStyle">@style/OutlinedCardView</item>
+
+        <item name="android:background">@color/eerie_black</item>
+
+
+        <item name="colorSurface">@color/eerie_black</item>
+        <item name="colorOnSurface">@color/light_white</item>
+        <item name="colorPrimarySurface">@color/eerie_black</item>
+        <item name="colorOnPrimarySurface">@color/light_white</item>
+    </style>
+</resources>

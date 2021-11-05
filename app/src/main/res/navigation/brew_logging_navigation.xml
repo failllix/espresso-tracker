@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/brew_logging_navigation"
+    app:startDestination="@id/brewLoggingSetupFragment">
+
+    <fragment
+        android:id="@+id/brewLoggingSetupFragment"
+        android:name="com.thewildzoo.espressotracker.brewlogging.BrewLoggingSetupFragment"
+        android:label="BrewLoggingSetupFragment"
+        tools:layout="@layout/fragment_brew_logging_setup">
+        <action
+            android:id="@+id/action_brewLoggingSetupFragment_to_brewLoggingBrewingFragment"
+            app:destination="@id/brewLoggingBrewingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/brewLoggingBrewingFragment"
+        android:name="com.thewildzoo.espressotracker.brewlogging.BrewLoggingBrewingFragment"
+        android:label="BrewLoggingBrewingFragment"
+        tools:layout="@layout/fragment_brew_logging_brewing">
+        <action
+            android:id="@+id/action_brewLoggingBrewingFragment_to_brewLoggingTasteFragment"
+            app:destination="@id/brewLoggingTasteFragment" />
+        <action
+            android:id="@+id/action_brewLoggingBrewingFragment_to_brewLoggingSetupFragment"
+            app:destination="@id/brewLoggingSetupFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/brewLoggingTasteFragment"
+        android:name="com.thewildzoo.espressotracker.brewlogging.BrewLoggingTasteFragment"
+        android:label="BrewLoggingTasteFragment"
+        tools:layout="@layout/fragment_brew_logging_taste"/>
+</navigation>

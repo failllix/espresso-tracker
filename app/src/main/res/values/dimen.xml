@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_spacing_top">32dp</dimen>
+    <dimen name="horizontal_padding">32dp</dimen>
+    <dimen name="tab_layout_item_spacing">16dp</dimen>
+    <dimen name="add_subtract_button_size">40dp</dimen>
+
+
+    <!--Text size-->
+    <dimen name="secondary_outline_text_size">20sp</dimen>
+    <dimen name="big_data_label_text_size">52sp</dimen>
+    <dimen name="heading_1_text_size">34sp</dimen>
+    <dimen name="heading_3_text_size">22sp</dimen>
+    <dimen name="heading_5_text_size">15sp</dimen>
+    <dimen name="view_pager_text_size">20sp</dimen>
+
+</resources>

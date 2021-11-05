@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Bean it</string>
+
+    <string name="button_title_brew_setup_to_brewing">Pull the lever</string>
+    <string name="button_title_brewing_to_setup">Setup</string>
+    <string name="button_title_brewing_to_taste">Taste</string>
+    <string name="button_title_start_brew">Start</string>
+    <string name="button_title_stop_brew">Stop</string>
+    <string name="button_title_save_setup">Save</string>
+
+    <!--Preference Keys-->
+    <string name="pref_default_coffee_in_key">default_coffee_in</string>
+    <string name="pref_default_coffee_out_key">default_coffee_out</string>
+    <string name="pref_default_planned_brew_ratio_key">default_planned_brew_ratio</string>
+    <string name="scale_factor_key">scale_factor</string>
+    <string name="pref_threshold_key">accelerometer_threshold</string>
+    <string name="pref_accelerometer_recalibration_key">accelerometer_recalibration</string>
+    <string name="pref_setup_complete_key">setup_completed</string>
+    <string name="pref_use_accelerometer_key">use_accelerometer</string>
+
+    <!--Preference Default summaries-->
+    <string name="default_summary_coffee_in">15.0</string>
+    <string name="default_summary_coffee_out">30.0</string>
+    <string name="default_summary_brew_ratio">2.0</string>
+    <string name="default_summary_scale_factor">5</string>
+    <string name="default_summary_threshold">0.5</string>
+    <string name="default_summary_accelerometer_calibration">Recalibrate the triggering of the stopwatch through the accelerometer.</string>
+    <string name="default_summary_use_accelerometer">Use the accelerometer to automatically start the shot timer.</string>
+
+    <!--Fragment titles-->
+    <string name="fragment_title_log_brew">Log</string>
+    <string name="fragment_title_brew_history">History</string>
+    <string name="fragment_title_settings">Settings</string>
+
+    <!--Labels-->
+    <string name="label_coffe_in">Coffee in</string>
+    <string name="label_coffe_out">Coffee out</string>
+    <string name="label_brew_ratio">Brew ratio</string>
+    <string name="label_brew_ratio_number">1 : %1$s</string>
+    <string name="label_timer_default">00:00.00</string>
+    <string name="label_from_to_indicator">🠒</string>
+
+    <string name="label_item_deleted">Deleted recipe entry.</string>
+    <string name="label_item_deleted_undo">Undo</string>
+
+
+    <!-- Preference Titles -->
+    <string name="pref_title_defaults">Default Values</string>
+    <string name="pref_title_accelerometer">Accelerometer Triggering</string>
+
+    <!-- Default value Preferences -->
+    <string name="pref_defaults_coffee_in">Coffee in</string>
+    <string name="pref_defaults_coffee_out">Coffee out</string>
+    <string name="pref_defaults_brew_ratio">Brew Ratio</string>
+
+    <!--Accelerometer Preferences-->
+    <string name="pref_defaults_scale_factor">Scale Factor</string>
+    <string name="pref_defaults_threshold">Threshold</string>
+    <string name="pref_accelerometer_calibration">Recalibrate</string>
+    <string name="pref_use_accelerometer">Use Accelerometer</string>
+
+</resources>

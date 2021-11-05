@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/pref_title_defaults">
+
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            android:summary="@string/default_summary_coffee_in"
+            android:defaultValue="@integer/coffee_in_default"
+            app:key="@string/pref_default_coffee_in_key"
+            app:title="@string/pref_defaults_coffee_in" />
+
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            android:summary="@string/default_summary_coffee_out"
+            android:defaultValue="@integer/coffee_out_default"
+            app:key="@string/pref_default_coffee_out_key"
+            app:title="@string/pref_defaults_coffee_out" />
+
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            android:defaultValue="@integer/planned_brew_ratio_default"
+            android:summary="@string/default_summary_brew_ratio"
+            app:key="@string/pref_default_planned_brew_ratio_key"
+            app:title="@string/pref_defaults_brew_ratio" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_title_accelerometer">
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            android:summary="@string/default_summary_scale_factor"
+            android:defaultValue="@integer/scale_factor_default"
+            app:key="@string/scale_factor_key"
+            app:title="@string/pref_defaults_scale_factor" />
+
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            android:summary="@string/default_summary_threshold"
+            android:defaultValue="@string/default_summary_threshold"
+            app:key="@string/pref_threshold_key"
+            app:title="@string/pref_defaults_threshold" />
+
+        <SwitchPreference
+            android:summary="@string/default_summary_use_accelerometer"
+            app:title="@string/pref_use_accelerometer"
+            android:key="@string/pref_use_accelerometer_key"
+            android:defaultValue="true"/>
+
+        <Preference
+            app:key="@string/pref_accelerometer_recalibration_key"
+            android:summary="@string/default_summary_accelerometer_calibration"
+            app:title="@string/pref_accelerometer_calibration"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
